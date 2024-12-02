@@ -1,10 +1,15 @@
 @extends('layout')
 
 @section('page-content')
-    <br>
-    <br>
-    <p class="text-center text-danger">
-        <i class="bi bi-book" style="font-size: 6rem;"></i>
-    </p>
-    <h1 class="text-center text-success">Laravel Book Store</h1>
+    <br><br>
+    <div class="card w-50 m-auto border-success">
+        <div class="card-body">
+            <p class="text-center">
+                <i class="bi bi-book text-success" style="font-size: 6rem;"></i>
+            </p>
+            <h1 class="text-center text-success">Book Store</h1>
+        </div>
+    </div>
+
+
 @endsection
